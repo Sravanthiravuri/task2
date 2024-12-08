@@ -1,0 +1,159 @@
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f0ee; /* Dark chocolate */
+    color: #0a0606; /* Light text for contrast */
+    line-height: 1.6;
+    padding: 0 15px;
+    font-size: 1rem;
+}
+
+/* Header Styling */
+.header {
+    background-color: #9a64f1; /* Milk chocolate */
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #8d6e63; /* Caramel touch */
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #ffe0b2; /* White chocolate */
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #090301; /* Cream accent */
+}
+
+/* Main Content */
+.content {
+    margin: 20px 0;
+}
+
+/* About and Services Sections */
+.about, .services {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f5a0e2; /* Rich chocolate */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #573ee4; /* Soft caramel */
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #9a64f1; /* Semi-dark chocolate */
+    border-top: 5px solid #8d6e63; /* Caramel border */
+}
+
+.footer p {
+    font-size: 0.9rem;
+    color: #0e0c0b; /* Cream text */
+}
+
+/* Responsive Design - Media Queries */
+
+/* For mobile screens (less than 600px wide) */
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 2rem; /* Smaller header text on small screens */
+    }
+
+    .header p {
+        font-size: 1rem; /* Smaller paragraph text */
+    }
+
+    .content {
+        padding: 0 10px;
+    }
+
+    .about, .services {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Smaller heading */
+    }
+
+    ul li {
+        font-size: 0.9rem; /* Smaller list items */
+    }
+
+    .footer p {
+        font-size: 0.8rem; /* Smaller footer text */
+    }
+}
+
+/* For tablet screens (600px to 900px wide) */
+@media (min-width: 600px) and (max-width: 900px) {
+    .header h1 {
+        font-size: 2.2rem; /* Slightly smaller header */
+    }
+
+    .content {
+        padding: 0 20px;
+    }
+
+    .about, .services {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+}
+
+/* For larger screens (above 900px wide) */
+@media (min-width: 900px) {
+    .header h1 {
+        font-size: 2.5rem; /* Default header size */
+    }
+
+    .content {
+        padding: 0 30px;
+    }
+
+    .about, .services {
+        padding: 20px;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    ul li {
+        font-size: 1.1rem;
+    }
+
+    .footer p {
+        font-size: 1rem;
+    }
+}
